@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color: #ffaa00;
+}
+
+i{
+    font-size: 3rem;
+    color: #ffaa00;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.static{
+    display: flex;
+    flex-direction: column;
+}
+
+.headtotal{
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.item-warpper{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.item{
+    border-right: 2px solid #ccc;
+}
+
+.item:last-child{
+    border: none;
+}
+
+.data-covid19{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.data-covid19 tr th,
+.data-covid19 tr td{
+    padding: 15px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:2rem auto 0;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    
+}
+
+footer a{
+    color: #ffaa00;
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://s.isanook.com/hi/0/rp/r/w728/ya0xa0m1w0/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2hpLzAvdWQvMjk5LzE0OTYzMDMvMi5qcGc=.jpg">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="static">
+            <div class="headtotal">
+                <h2>
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    Total Cases
+                </h2>
+                <p style="font-size: 3rem;" id="total_cases">Please wait</p>
+            </div>
+
+            <div class="item-warpper">
+                <div class="item">
+                    <h2>
+                        <i class="fa fa-user-times" aria-hidden="true"></i>
+                        Total Death
+                        <p style="font-size: 1.5rem;" id="total_deaths">Please wait</p>
+                    </h2>
+                </div>
+                <div class="item">
+                    <h2>
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        Total Recovery
+                        <p style="font-size: 1.5rem;" id="total_recovered">Please wait</p>
+                    </h2>
+                </div>
+                <div class="item">
+                    <h2>
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        New Casde
+                        <p style="font-size: 1.5rem;" id="new_cases">Please wait</p>
+                    </h2>
+                </div>
+                <div class="item">
+                    <h2>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        New Death
+                        <p style="font-size: 1.5rem;" id="new_deaths">Please wait</p>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <table class="data-covid19" id="data-covid19">
+            <tr>
+                <th>Country</th>
+                <th>Cases</th>
+                <th>Deaths</th>
+                <th>Serious Critical</th>
+                <th>Total Recovered</th>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>Rapidapi :   <a href="https://rapidapi.com/astsiatsko/api/coronavirus-monitor">Data source</a></p>
+        <p>Youtube :    <a href="https://www.youtube.com/watch?v=O4ss7_RPLPk">Youtube</a></p>
+        <p>By : <a href="https://github.com/nuylovebaby">Apicahi Thinthonglang</a></p>
+    </footer>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
