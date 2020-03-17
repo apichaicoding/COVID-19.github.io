@@ -79,6 +79,8 @@ footer {
     text-align: center;
     color: #fff;
     background-color: #333;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     
 }
 
