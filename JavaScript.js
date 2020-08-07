@@ -38,11 +38,13 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.p
     for(let i = 0; i < countries_stat.length; i++){
         console.log(countries_stat[i]);
         let row = table.insertRow(i + 1);
-        let country_name = row.insertCell(0);
-        let cases = row.insertCell(1);
-        let deaths = row.insertCell(2);
-        let serious_critical = row.insertCell(3);
-        let total_recovered = row.insertCell(4);
+        let No = row.insertCell(0);
+        let country_name = row.insertCell(1);
+        let cases = row.insertCell(2);
+        let deaths = row.insertCell(3);
+        let serious_critical = row.insertCell(4);
+        let total_recovered = row.insertCell(5);
+        No.innerHTML = i+1;
         country_name.innerHTML = countries_stat[i].country_name;
         cases.innerHTML = countries_stat[i].cases;
         deaths.innerHTML = countries_stat[i].deaths;
